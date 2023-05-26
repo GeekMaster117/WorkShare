@@ -1,0 +1,10 @@
+<web-app>
+	<servlet>
+		<servlet-name>Java</servlet-name>
+		<servlet-class>Java</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Java</servlet-name>
+		<url-pattern>/*</url-pattern>
+	</servlet-mapping> 
+</web-app>

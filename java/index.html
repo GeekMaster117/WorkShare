@@ -1,0 +1,16 @@
+<html>
+<body>
+<center>
+<h1 id = "msg"></h1>
+</center>
+</body>
+<script>
+function httpGet(theUrl) {
+  	fetch(theUrl)
+	.then(response => response.json())
+	.then(data => document.getElementById("msg").innerHTML = data["msg"]);
+}
+var msg = prompt("Enter Something");
+httpGet("http://hubprivato.ddns.net/engine/InsertChar?msg="+msg);
+</script>
+</html>
