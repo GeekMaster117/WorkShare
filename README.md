@@ -4,15 +4,20 @@
 
 REQUIREMENTS:-
 
+---------------------------*-----------------------------
+
 -> Apache Tomcat
 
-  VERSION:-
+VERSION:-
   
-  Recommended Version: 10 or above
+->Recommended Version: 10 or above
+  
+---------------------------*------------------------------
 
 -> JDK (Java Development Kit) 
 
-   VERSION:-
+VERSION:-
    
-   Recommended Version: 8.x or the version which supports your Apache Tomcat version
+-> Recommended Version: 8.x or the version which supports your Apache Tomcat version
    
+---------------------------*------------------------------
