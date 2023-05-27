@@ -49,3 +49,9 @@ SERVER SECURITY:-
 -> Inside the core folder you can find the file permission.policy. Thid file makes sure the code sent to server dosen't have unrestricted access to the server. By default this file only gives 2 permissions to any  Java code sent to the server, 1) Permission to set Input or Output 2) Permission to write to the file out.txt.
 
 -> You can add more permissions if the code wants access to some classes, but be wary because giving some crucial permissions will give the code ability to delete important system files like 'System32' which permanently wreck your Operating System or steal all your data, so give permissions very carefully.
+
+-------------------------------------------------------
+
+CLIENT PRIVACY:-
+
+-> To ensure client's privacy the code, bytecode or .class file and the output will be deleted once the session is closed.
