@@ -42,4 +42,10 @@ HOW TO WRITE THE CODE:-
 
 -> If output is required then the code should contain the line 'System.setOut(new PrintStream(\"out.txt\"));'. This line will flush the output of your code to a file called out.txt. After the execution of your code is over, the content of out.txt will be sent back as response.
 
-->
+-------------------------------------------------------
+
+SERVER SECURITY:-
+
+-> Inside the core folder you can find the file permission.policy. Thid file makes sure the code sent to server dosen't have unrestricted access to the server. By default this file only gives 2 permissions to any  Java code sent to the server, 1) Permission to set Input or Output 2) Permission to write to the file out.txt.
+
+-> You can add more permissions if the code wants access to some classes, but be wary because giving some crucial permissions will give the code ability to delete important system files like 'System32' which permanently wreck your Operating System or steal all your data, so give permissions very carefully.
