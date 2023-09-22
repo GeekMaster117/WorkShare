@@ -20,6 +20,10 @@ HOW TO SETUP:-
 
 -> Place the folder 'java' in webapps folder of your Tomcat.
 
+-> Create an Environment Variable 'SERVER_HOME' and set the path to the 'java' folder in webapps, the servlet uses this environment variable for some of its functionalities.
+
+-> If you encounter an error related to not being able to create or delete files in the server, stop your tomcat and start it again as adminstrator. This will give tomcat the required permissions to create and delete files.
+
 ---------------------------------------------------------
 
 HOW TO SEND CODE:-
